@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 """
-#bu modul (UTS-8 formatinda) oxuyan ve mezmunu cap eden funksiyani ehate edir
+#bu modul (UTS-8 formatinda) oxuyan
+ve mezmunu cap eden funksiyani ehate edir.
 """
+
+
 def read_file(filename=""):
     """
     Funksiya UTS-8 formatinda oxuyur
-    """
+
     Args:
         filename(str):faylin adidir
     """
