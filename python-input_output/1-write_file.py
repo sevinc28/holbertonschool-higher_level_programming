@@ -7,9 +7,11 @@ def write_file(filename="", text=""):
     """
     Writes a string to a text file (UTF8), overwriting its content,
     and returns the number of characters written.
+
     Args:
     filename (str): Name of the file to write to.
     text (str): Text to write.
+
     Returns:
     int: Number of characters written.
     """
