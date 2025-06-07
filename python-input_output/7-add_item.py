@@ -15,7 +15,7 @@ else:
     items = []
 
 #Elave olunan arqumentleri siyahiya elave et
-items.extend(sys.argv[1:]
+items.extend(sys.argv[1:])
 
 #Yenilenmis siyahini fayla yaz
 save_to_json_file(items, filename)
