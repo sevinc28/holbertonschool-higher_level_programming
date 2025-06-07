@@ -3,6 +3,8 @@
 This module provides a function that writes a string to a text file (UTF8),
 creating the file if it does not exist, and overwriting its content if it does.
 """
+
+
 def write_file(filename="", text=""):
     """
     Writes a string to a text file (UTF8), overwriting its content,
